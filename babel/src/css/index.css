@@ -1,0 +1,25 @@
+body {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  animation: 300ms latido infinite;
+}
+
+@keyframes latido {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
